@@ -11,6 +11,25 @@
                 text-emphasis-color: rgb(255, 0, 0);
                 font-family: fantasy;
             }
+            #larger{
+                font-size: x-large;
+            }
+            .red{
+                background-color: red;
+            }
+            .green{
+                background-color: green;
+            }
+            .blue{
+                background-color: blue;
+            }
+
+            div{
+                margin-top: 100px;
+                margin-left: 100px;
+                border-style: dashed;
+                padding: 1%;
+            }
         </style>
         <title>Isaiah webpage</title>
         <meta charset="UTF-8">
@@ -23,15 +42,15 @@
 
     </head>
     <body>
-        <pre>consol.log('hello world!')</pre>
+        <pre id="larger">consol.log('hello world!')</pre>
         <hr>
         <div>this is block one</div>
         <div>this is block two</div>
         <div>this is block three</div>
 
-        <span>This is inline 1 &nacute; </span>
-        <span>This is inline 2 &backsim;</span>
-        <span>This is inline 3 &dagger;</span>
+        <span class="red">This is inline 1 &nacute; </span>
+        <span class="blue">This is inline 2 &backsim;</span>
+        <span class="green">This is inline 3 &dagger;</span>
         <br>
         <a href="./omniman.html" id="omniman-link">Click here for a fun surprise!!</a>
     </body>
